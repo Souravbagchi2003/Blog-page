@@ -1,0 +1,99 @@
+.search-btn,
+.close-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: #111111;
+    color: #ffdf00;
+    position: absolute;
+    transition: all 0.25s ease;
+}
+
+.close-btn {
+    color: red;
+    z-index: -1;
+    background-color: transparent;
+}
+
+#search-box {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    transition: width 0.25s ease;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.active-1 #search-box {
+    width: 250px;
+}
+
+.active-1 .search-btn {
+    transform: translate(210px, -2px) scale(0.8);
+    background-color: transparent;
+}
+
+.active-1 .close-btn {
+    z-index: 0;
+    transform: translate(250px, -2px)
+}
+
+.search #myUL li{
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  #myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+/* .result-box ul {
+    border-top: 1px solid white;
+    /* margin: 10px; 
+} */
+
+/* .result-box ul li {
+    top: 100;
+    list-style: none;
+    border-radius: 3px;
+    /* padding: 15px 10px; 
+    cursor: pointer;
+    display: flex;
+}
+
+.result-box ul li:hover
+{
+    background:#ffdf00;
+}
+
+input
+{
+    flex: 1;
+    height: 50px;
+    background: white;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: white;
+} */

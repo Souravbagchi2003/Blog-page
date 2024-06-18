@@ -1,0 +1,24 @@
+/* pagination style */
+.w3-center { 
+	text-align: center; 
+	margin-bottom: 22px; 
+} 
+
+.w3-center button
+{
+	color:black; 
+	padding: 8px 16px; 
+	text-decoration: none; 
+	border:black; 
+	margin: 10px; 
+	border-radius: 10px; 
+	font-size: 15px;
+}
+
+.w3-center button:hover { 
+	background-color: #f8cb42; 
+	color: white; 
+} 
+
+
+
